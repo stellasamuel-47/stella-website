@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+
+        <header>
+            <div class="container">
+                <h1>Welcome to My Portfolio</h1>
+                <p>I create beautiful and functional websites</p>
+            </div>
+        </header>
+    
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        
+    </nav>
+    
+     <section id="about">
+        <h2>About Me</h2>
+        <p>welcome to my portfolio!Am Stella a passionate website developer,i give qualified website services</p>
+    </section>
+
+    
+
+    <section id="portfolio">
+
+        <div class="filter">
+            <label for="filter">Sort by:</label>
+            <select id="filter">
+                <option value="all">All</option>
+                <option value="web">Web Design</option>
+                <option value="graphic">Graphic Design</option>
+                <!-- Add more options if needed -->
+            </select>
+        </div>
+        <div class="gallery">
+            <div class="item web">
+                <img src="image22.jpg" alt="Web Design 1">
+                <h3>Web Design 1</h3>
+            </div>
+            <div class="item graphic">
+                <img src="image33.jpg" alt="Graphic Design 1">
+                <h3>Graphic Design 1</h3>
+            </div>
+            <!-- Add more work samples with appropriate classes -->
+        </div> 
+        
+        
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <img src="image11.jpg" alt="project 1">
+            <img src="image22.jpg" alt="project 2">
+            <!-- Add more project images here -->
+        </div>
+    </section>
+    
+    <section id="services">
+        <div class="container">
+            <h2>My Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="image11.jpg" alt="Web Design">
+
+                    <h3>Web Design</h3>
+                    <p>I create visually appealing and user-friendly website designs.</p>
+                </div>
+
+                <div class="service">
+                    <img src="image22.jpg" alt="Web Development">
+
+                    <h3>Web Development</h3>
+                    <p>I develop responsive and efficient websites using modern technologies.</p>
+                </div>
+                
+                <div class="service">
+                    <img src="image44.jpg" alt="Graphic Design">
+
+                    <h3>Graphic Design</h3>
+
+                 <p>I design logos, banners, and other graphics for your website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cta">
+        <div class="container">
+            <h2>Ready to get started?</h2>
+            <a href="#" class="cta-button">Contact Me</a>
+        </div>
+    </section> 
+
+
+    <section id="contact">
+        
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
+        
+
+    <section id="social-media">
+        <ul>
+            <li><a href="https://www.facebook.com/YourPage"><img src="facebook-icon.png" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com/YourPage"><img src="twitter-icon.png" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/YourPage"><img src="instagram-icon.png" alt="Instagram"></a></li>
+            <!-- Add more social media links as needed -->
+        </ul>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonial">
+                <div class="rating">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                </div>
+                <p>"Amazing work! Highly recommend."</p>
+                <p class="author">- John Doe</p>
+            </div>
+            <div class="testimonial">
+                <div class="rating">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon.png" alt="Star" class="star">
+                    <img src="star-icon-empty.png" alt="Empty Star" class="star">
+                </div>
+                <p>"Great communication and delivered on time."</p>
+                <p class="author">- Jane Smith</p>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
